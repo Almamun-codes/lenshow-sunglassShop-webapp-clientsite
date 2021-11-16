@@ -1,38 +1,54 @@
-.App {
-  text-align: center;
+.product-height {
+  height: 150px;
+}
+.product-h {
+  height: 300px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h4 {
+  line-height: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.bg-banner {
+  background-image: url("/src/img/wave\ .svg");
+  background-size: cover;
+  height: 100px;
+}
+.bg-banner-top {
+  background-image: url("/src/img/wave\ \(2\).svg");
+  background-size: cover;
+  background-repeat: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.bg-navbar {
+  background-color: #f46f3b;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.web-color {
+  color: #f46f3b;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.top-bg {
+  background-image: url("/src/img/tob-bg.svg");
+  background-size: cover;
+  height: auto;
+}
+
+.bg-height {
+  height: 200px;
+}
+
+.bg-dashboard {
+  background-image: url("/src/img/dashboard.svg");
+  background-size: cover;
+  width: 100%;
+  background-repeat: none;
+}
+
+.bg-footer {
+  background-image: url("/src/img/footer.svg");
+  height: 200px;
+  background-size: cover;
+  background-repeat: none;
 }
